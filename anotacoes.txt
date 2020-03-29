@@ -152,4 +152,70 @@ Símbolos especiais
 /*Cometário em HTML*/
 <! -- e finaliza por -->
 
-teste de salvamento automatico
+
+Aula 8 do curso gustavo guanabara.
+
+
+Adicionando um background-color na página html.
+
+Para adicionar um background devemos utilizar css, um dos modos de inserção é exemplo;
+Adicianar dentro da <body> que é responsável pelo que o usuário vê.
+
+<body style="background-color:red;"> O parametro red pode ser substituido por qualquer um.
+
+Um segundo mode de adicionar background é tratar em tags globais na área do <head></head> dentro dos estilos do css, exemplo;
+
+Exemplo de uma tag global, responsável por formatação de todo o documento.
+
+<style>
+        body{
+             background-color:red;
+        }
+
+		p {
+			text-align: justify;
+			text-indent: 50px;"
+		}
+	</style>
+Essa formatação vai se adequar em todos as tags <p> </p> dentro do documento.
+Essa formatação vai se adequar em todos as tags <body> </body> dentro do documento.
+
+
+Site de cores em html catalogo de cores. 
+Toda cor em html montada apartir de codigos rgb são construídas da seguinte forma
+
+# composto por seis dígitos.
+
+#005652
+
+#00 os dois primeiros digitos responsáveis pela cor red, os dois digitos do meio 00 responsáveis pela cor green, e os dois 00 últimos dígitos responsáveis pela quantidade de cor blue.
+
+https://www.homehost.com.br/blog/tutoriais/tabela-de-cores-html/
+
+rgb Também podemos identificar cores pelo rgb quantidade de cor red, green, blue. Segue exemplo;
+
+body{
+             background-color:rgb(35,137,195);
+        }
+
+ou
+
+rgba red,green,blue,alpha o alpha representa a transparencia do objeto ou letras, o valor mínimo é 0 e o valor máximo é 1. podemos utilizar 0.1,0.2,0.5,0.9 e 1.
+
+body{
+             background-color:rgba(35,137,195,0.2); 
+        }
+
+hsl Também  podemos utilizar o parametro hsl que significa matiz, saturação e luminosidade com os valores em porcentagem, segue abaixo. 
+
+ou
+hsla o a significa alpha  que representa a transparencia do objeto ou letras, o valor mínimo é 0 e o valor máximo é 1. podemos utilizar 0.1,0.2,0.5,0.9 e 1.
+
+body{
+             background-color:hsla(35,30%,30%,30%); 
+        }
+
+
+
+
+
