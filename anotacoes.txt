@@ -216,6 +216,35 @@ body{
         }
 
 
+Aula 09 manipulação de imagens em html5
+
+para indexar uma imagem na página html devemos descrever dentro da tag img o caminho da imagem
+com o parametro src="";
+
+<figure>
+Exemplo: <img src="_imagens/glass-quadro-homem-mulher.jpg"/;>
+<figcaption>
+	<h3>Google Glass</h3>
+	<p>Uma nova maneira de ver o mundo.</p>
+</figcaption>
+</figure>
+
+A tag img não tem fechamento. todas as imagens devem estar dentro da tag <figure> e </figure> para
+facilitar mecanismos de busca encontrar as imagens na web.
+
+a tag <figcaption> e </figcaption>  ??????
+
+Como chamar um aquivo css para a página html.
+
+<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+
+utilizando a tag <link> com parametros como acima e utilizando o href="pasta onde esta o arquivo css
+
+
+
+
+
+
 
 
 
