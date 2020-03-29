@@ -1,0 +1,77 @@
+Significado das tags em html resumão.
+
+
+<!--<!DOCTYPE html> Sinaliza que o documento é html5-->
+
+<! -- Estrutura do html5-->
+
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Sinaliza a linguagem que vai ser escrito o site-->
+
+<head> <!-- Cabeça do arquivo html onde é passado "Parametros"-->
+
+	<meta charset="utf-8"/> <!-- Define que será utilizado caracteres UTF-8 no documento acentuações-->
+	<title>Tudo sobre o Google Glass</title> <!--A title é responsável pelo título que aparece no navegador -->
+	<style></style> <!-- a tag style é responsável pelos css ou seja folhas de estilo da página. Essas folhas devem ser inseridas na tag <head> que é responsável pelos comandos que a página vai ter.-->
+</head>
+
+<body>  <!-- Tag <body> é responsável por tudo que o usuário vai visualizar na página, fotos,textos, links, paragrafos, e não recebe alguns parametros (<style>)que só é utilizado na tag <head> -->
+
+<p> <!--Parágrafo Essa tag é utilizada para informar ao navegador que se trata de um parágrafo e precisa ser fechada no final com </p> -->
+
+<!-- &shy; Hífen suave em HTML (<wbr> Quebra de palavra sem ifenização )  vs.( & shy; quebra de palavra com ifenização) Em um texto, pode haver palavras longas que você pode querer quebrar com um hífen. Mas você não deseja que o hífen seja exibido se a palavra inteira estiver na mesma linha.
+  -->
+
+
+Símbolos especiais
+
+&lt; = <
+&gt; = >
+
+&le; > igual
+&ge; < igual
+
+<br/> Pula uma linha
+
+&pound;
+&yen;
+&euro;
+
+&copy;
+&regy;
+&trade;
+
+<br/>
+
+&permil;
+&sum;
+&infin;
+&times;
+&plusmn;
+&oplus;
+&radic;
+&ne;
+
+&Delta;
+&Lambda;
+&omega;
+&phi;
+
+&larr;
+&rarr;
+&uarr;
+&darr;
+&harr;
+
+&spades;
+&clubs;
+&hearts;
+&diams;
+
+</body>
+</html>
+
+/*Cometário em HTML*/
+<! -- e finaliza por -->
+
+teste de salvamento automatico
