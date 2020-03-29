@@ -8,7 +8,17 @@ Significado das tags em html resumão.
 <!DOCTYPE html>
 <html lang="pt-br"> <!--Sinaliza a linguagem que vai ser escrito o site-->
 
-<head> <!-- Cabeça do arquivo html onde é passado "Parametros"-->
+<head> <!-- Cabeça do arquivo html onde é passado "Parametros"--> A area <head></head> do documento é responsável pelo comportamento do site, é onde recebe comandos ou área global do arquivo utilizada para formatação e outros.
+
+Exemplo de uma tag global, responsável pelo texto inteiro
+
+<style>
+		p {
+			text-align: justify;
+			text-indent: 50px;"
+		}
+	</style>
+Essa formatação vai se adequar em todos as tags <p> </p> dentro do documento.
 
 	<meta charset="utf-8"/> <!-- Define que será utilizado caracteres UTF-8 no documento acentuações-->
 	<title>Tudo sobre o Google Glass</title> <!--A title é responsável pelo título que aparece no navegador -->
@@ -21,6 +31,74 @@ Significado das tags em html resumão.
 
 <!-- &shy; Hífen suave em HTML (<wbr> Quebra de palavra sem ifenização )  vs.( & shy; quebra de palavra com ifenização) Em um texto, pode haver palavras longas que você pode querer quebrar com um hífen. Mas você não deseja que o hífen seja exibido se a palavra inteira estiver na mesma linha.
   -->
+
+Significado das Tags de formatação.
+
+Tags antigas do html4
+<b>Negrito</b>
+<i>italico</i>
+<em>Ênfase</em>
+<u>Sublinhado</u> "Tag depreciada, descontinuada no html5"
+<s>Strike</s> riscado
+
+Tags novas
+
+<del> riscado ou deletado do texto</del>
+<span> style="text-decoration: underline;"</span> essa css adiciona um sublinhado abaixo do texto
+<span> style="text-decoration: overline;"</span> essa css adiciona um sublinhado acima do texto
+<span> style="text-decoration: line-through;"</span> essa css adiciona um risco no texto igual a tag <del></del> ou a tag <Strike> riscado</Strike>
+ <span> style="text-decoration: none;"</span> essa css gera um texto sem decoração nenhuma
+
+
+Trabalhando o Negrito
+
+<span> style="font-weight:normal;</span> essa css passa o parametro negrito = 0 ou nenhum
+<span> style="font-weight:bold;</span> essa css passa o parametro negrito para o texto 
+<span> style="font-weight:bolder;</span> essa css para o parametro ligeiramente mais negrito que o bold
+<span> style="font-weight:400;</span>essa css para o parametro de 100 a 900 de nivel de negrito
+
+Trabalhando o alinhamento de texto
+
+No antigo html utilizavamos o dentro da tag que queriamos alinhar o parametro align = center ex: <h2 align="center"> mas essa maneira de formatação está depreciada
+
+Atualmente para fazer alinhamento de textos utilizamos o css style="text-align:center ou right ou left ou justify" dessa maneira segue o exemplo <h2 style="text-align:center>
+
+
+<sup>Formatação</sup> coloca o texto dentro da tag elevado, igual ao quadrado.
+
+<sup>Formatação</sup> coloca o texto dentro da tag rebaixado, o oposto da tag <sup></sup>
+
+<p>Exemplos de <sup>Formatação</sup></p>
+<p>Exemplos de <sub>Formatação</sub></p>
+
+<p> X<sup>2</sup> e H<sub>2</sub>O</p>
+
+Para fazer alinhamento de paragrafos utilizamos o css com o parametro style
+
+style="text-align: justify;
+Ex: <p style="text-align: justify;">Texto a ser alinhado ou justificado</p>
+
+Também é possível passar mais de um parametro depois do ; 
+exemplo: <p style="text-align: justify; text-indent: 50px;"
+
+No html 5 não utilizamos o html para formatação de texto e sim o CSS, sempre deve ser utlizado o css com parametro style quando se tratar de formatação de texto.
+
+Para exibir códigos dentro do html de qualquer linguagem devemos utilizar a tag <code></code>
+
+Exemplo de um pedaço de código c++ dentro da tag code. 
+
+A tag <pre> </pre> traz o resultado pré formatado, ela exibe o trecho digitado exatamente como 
+foi digitado no código, considenrando tabulações, espaços e marcas de enters repetindo a formatação no resultado final.
+
+<pre>
+<code>
+#include &lt;iostream&gt;
+	int main (){
+		cout << "Olá, Mundo!";
+		return 0;
+	}
+</code>
+</pre>
 
 
 Símbolos especiais
