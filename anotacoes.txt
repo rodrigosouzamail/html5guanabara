@@ -359,7 +359,19 @@ Para esconder algum objeto de dentro do site, basta somente apontar o id com a #
 
 
 
+
 Aula 14 Efeitos visuais em css3
+
+Entendendo parametros de transição
+
+Dentro do nav#menu li{} podemos passar parametros de transição utilizando o transition: background-color 1s; 1s siginifica o tempo que ele vai demorar para realizar a transição.
+
+
+
+
+Aula 15 Formatação de interfaces com HTML5 
+
+
 
 
 
