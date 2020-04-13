@@ -317,6 +317,49 @@ Lembrar de utilizar essa função somente para sites externos, no caso de links 
 
 
 
+Aula 13 criando e formatando menu com css 3
+
+
+
+
+Tabalhando o arquivo estilo css, utilizando id e formatando cores.
+
+para referenciar id de html nos documentos css utilizamos o #
+
+
+para retirar os marcadores utilizamos list style: none;
+text transfrom: uppercase; Deixa todas as letras maiúsculas
+
+
+referenciando outro item do id= menu
+
+podemos utilizar o id para realizar diversas formatações quantas vezes foram necessárias para cada item da tag original.
+
+formatação de <li></li> identificada no css pelo id=menu
+
+Parametro padding cria um espaçamento dentro da caixa de texto identificado pela tag associada com id.
+ex: padding: 10 px;
+
+Parametro margin cria um espaçamento fora da caixa de texto em volta do objeto.
+ex: margin: 20px;
+
+
+Para fazer um menu flutuar devemos criar um bloco com o parametro display: block;
+ex: 
+
+nav#menu{
+	display:block;
+}
+
+Posiçoes absolutas o objeto pode se movimentar por todo o site.
+Posiçoes relativas o objeto pode se movimentar dentro do container nesse exemplo o <nav>Tudo que estiver aqui dentro</nav>
+
+
+Para esconder algum objeto de dentro do site, basta somente apontar o id com a # ex: nav#menu h1 e passar o parametro display: none;
+
+
+
+Aula 14 Efeitos visuais em css3
 
 
 
