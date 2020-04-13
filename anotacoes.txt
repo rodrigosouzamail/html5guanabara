@@ -240,6 +240,60 @@ Como chamar um aquivo css para a página html.
 
 utilizando a tag <link> com parametros como acima e utilizando o href="pasta onde esta o arquivo css
 
+figcaption hover Chama uma clase especifica dispara uma formatação especifica dessa classe
+
+Aula 10
+
+
+Cada imagen deve ser colocada dentro de um figure para facilitar sistemas de busca encontrar seu site.
+
+<figcaption></figcaption> = Legenda das imagens.
+
+
+Para utilizar a mesma formatação para várias imagens devemos utilizar uma classe declarada dentro da tag figure e figcaption.
+
+Aula 11
+
+Paramentros de lista em html
+
+para lista ordenadas utilizar a tag <ol></ol> / podemos utilizar diversos parametros dentro das <ol> utilizando o type="1,A,a," o parametro start define de onde a lista vai inicar a organização e só aceita utilização de parametros númericos. EX:
+
+Orned list
+
+type="a" letras minúsculas
+type="A" Letras Maiusculas
+type="1" Standard organiza a lista por números
+type="I" Organiza a lista por números romanos
+
+ <ol type="a,A,1" start="1,2,3">
+ 
+ lista
+ lista
+ lista
+ lista
+ lista
+ </ol>
+
+Unorded list
+
+Listas não ordenadas utilizam marcadores para organizar a lista.
+type="square"
+type="circle"
+type="disc"  Valor padrão
+ 
+<ul type="circle">
+lista
+lista
+<ul type="square">
+	<li>Músicas</li>
+	<li>Vídeos</li>
+</ul>
+lista
+lista
+lista
+</ul>
+
+
 
 
 
