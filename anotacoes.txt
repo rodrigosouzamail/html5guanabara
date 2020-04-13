@@ -295,6 +295,24 @@ lista
 
 
 
+Aula 12 trabalhando com links entre as páginas
+
+tag <a></a> chamada de tag âncora e utilizada para trabalhar com links
+
+para fazer apontamento para outros sites ou páginas dentro do projeto utilizamos o href ="link"target="_self" ----- o valor "_self é o valor standard.
+
+
+<a href="https://pt.wikipedia.org/wiki/Project_Glass">Project_Glass(texto que aparece para usuário)</a>
+Nesse caso listado acima ao clicar o link o site é aberto na mesma aba de navegação.
+
+
+Para abrir o site em outra aba de navegação devemos utilizar o parametro target="_blank"
+<a href="https://pt.wikipedia.org/wiki/Project_Glass" target="_blank">Project_Glass</a>
+
+
+Lembrar de utilizar essa função somente para sites externos, no caso de links internos do projeto não utilizamos a primeira opção.
+
+
 
 
 
