@@ -134,3 +134,45 @@ nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
+
+section#corpo {
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+    
+}
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:;
+
+}
+
+table#tabelaspec td {
+
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: right;
+    
+}
+
+aside#lateral {
+    display: block;
+    width: 435px;
+    float: right;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+footer#rodape{
+    border-top: 1px solid #606060;
+    clear: both;
+}
+
+footer#rodape p {
+    text-align: center;
+}

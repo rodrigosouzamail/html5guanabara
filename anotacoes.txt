@@ -407,9 +407,29 @@ Exemplo 2 Importação de fontes da web utilizando o google.com/fontes
 /*Para importar a fonte adicione a linha abaixo no css*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-/*Para chamar a fonte dentro do identificados no css use o comando abaixo encontrado no site */
+/*Para chamar a fonte dentro do identificador no css use o comando abaixo encontrado no site */
 
 font-family: 'Roboto', sans-serif;
+
+
+
+
+Aula 18 semântica em html 5
+
+Tag <section> Parte maior do site referente ao conteúdo principal</section>
+
+tag <aside> Parte lateral do site referente ao conteúdo secundário lateral direita</aside>
+
+tag <footer> Parte de baixo do site referente ao conteúdo do rodapé</footer>
+
+
+Aula 19 Tabelas em html 5
+
+
+
+
+
+
 
 
 
