@@ -392,7 +392,28 @@ Para adicionar fontes nos projetos temos 3 maneiras;
 3- importando uma fonte externa de algum site realizando apontamento de url e font-family declarado no cabeçario do css e no id escolhido.
 
 
-Exemplo 1
+Exemplo 1 Fontes personalizadas, colocando a fonte dentro da pasta _fontes do projeto declaramos ela no inicio do css com 
+
+@font-face{
+	font-family: 'Nome-da-fonte';
+	src: url ("Caminho da fonte");
+}
+
+Na identificação dentro do css adicionamos o font-family:'Nome-da-fonte';
+Nesse exemplo obrigatóriamente a fonte deve estar dentro do projeto.
+
+Exemplo 2 Importação de fontes da web utilizando o google.com/fontes
+
+/*Para importar a fonte adicione a linha abaixo no css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*Para chamar a fonte dentro do identificados no css use o comando abaixo encontrado no site */
+
+font-family: 'Roboto', sans-serif;
+
+
+
+
 
 
 
