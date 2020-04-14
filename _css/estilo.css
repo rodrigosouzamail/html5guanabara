@@ -1,17 +1,24 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-body{
-    background-color: #dddddd;
-    color: rgba(0,0,0,1) 
+
+@font-face{
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+
 }
 
-div#interface{
+body {
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1)
+}
+
+div#interface {
     width: 1000px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     padding: 20px;
-
 }
 
 p {
@@ -19,32 +26,59 @@ p {
     text-indent: 50px;
 }
 
+
 /*Configuração do posicionamento do óculos abaixo do menu de botões*/
 
-header#cabecalho img#icone{
+header#cabecalho img#icone {
     position: absolute;
-    left: 1070px;
-    top: 60px;
-
+    left: 1020px;
+    top: 80px;
 }
+
+
+/*Linha que separa o cabeçalho do restante do conteúdo*/
+
+header#cabecalho {
+    border-bottom: 1px#606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg")no-repeat 0px 80px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
 /*  Formatação de imagens com legendas. */
 
-figure.foto-legenda{
+figure.foto-legenda {
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
 }
 
-figure.foto-legenda img{
+figure.foto-legenda img {
     width: 100%;
     height: 100%;
 }
 
-figure.foto-legenda figcaption{
+figure.foto-legenda figcaption {
     opacity: 0;
     position: absolute;
     top: 0px;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0, 0, 0, .4);
     color: white;
     width: 100%;
     height: 100%;
@@ -53,25 +87,29 @@ figure.foto-legenda figcaption{
     transition: opacity 1s;
 }
 
-figure.foto-legenda:hover figcaption{
+figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
+
 
 /*Formatação de menus em css3*/
 
 nav#menu {
     display: block;
 }
+
+
 /* Tratamento dos botoes de menu flutuantes no canto direito superior*/
+
 nav#menu ul {
-        list-style: none;
-        text-transform: uppercase;
-        position: absolute;
-        top: -20px;
-        left: 700px;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 540px;
 }
 
-nav#menu li{
+nav#menu li {
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
@@ -83,8 +121,8 @@ nav#menu li:hover {
     background-color: #606060;
 }
 
-nav#menu h1{
-    display:none;
+nav#menu h1 {
+    display: none;
 }
 
 nav#menu a {
@@ -94,5 +132,5 @@ nav#menu a {
 
 nav#menu a:hover {
     color: #ffffff;
-   text-decoration: underline;
+    text-decoration: underline;
 }

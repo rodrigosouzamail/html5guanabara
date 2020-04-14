@@ -375,3 +375,28 @@ Aula 15 Formatação de interfaces com HTML5
 
 
 
+
+
+
+
+
+
+Aula 17 Fontes em css3
+
+Para adicionar fontes nos projetos temos 3 maneiras;
+
+1 - O modo padrão colocando o nome da fonte, mas é uma forma limitada por só utilizar as fontes instaladas no computador.
+
+2 - Utilizando uma fonte personalizada adicionando o arquivo de fonte dentro da pasta _fontes do projeto
+
+3- importando uma fonte externa de algum site realizando apontamento de url e font-family declarado no cabeçario do css e no id escolhido.
+
+
+Exemplo 1
+
+
+
+
+
+
+
