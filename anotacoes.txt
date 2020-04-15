@@ -425,6 +425,50 @@ tag <footer> Parte de baixo do site referente ao conteúdo do rodapé</footer>
 
 Aula 19 Tabelas em html 5
 
+table rows <tr> </tr> linhas
+ 
+table data <td> </td> celulas
+
+
+Devemos dar identificação id para identificar a <table> </table> dentro do css e aplicar as configurações de formatação das <tr> e <td> , borda, cor, alinhamento e outros.
+
+Dentro da formatação no css utilizando o identificador devemos configurar a borda externa com o parametro border
+
+O parametro border tem que passar 3 valores, 1° expessura da linha 2° a forma da linha que pode ser solid, dashed 3° a cor da linha.
+
+Exemplo:
+
+border: 1px solid #606060;
+
+Para retirar o espaçamento entre as bordas e retirar a aparência de borda dupla utilizamos o parametro 
+
+border-spacing: 0px;
+
+Para centralizar objetos devemos trabalhar com as bordas passando parâmetros de alinhamentos em px, right,left,top ou auto para centralizar.
+
+O espaçamento interno dos objetos é ajustado com o parametro padding passando a quantidade de px no seguinte sentido top,right,bottom,left.
+
+
+
+Parametros html para serem utilizados dentro das tags "table rows = <tr>
+Parametros html para serem utilizados dentro das tags "table data = <td>  
+
+(rowspan="") significa expansão de linhas
+(colspan="") significa expansão de colunas
+
+Ex: (Esses parametros não funcionam na tag <tr> e <table>)
+<td rowspan=" quantidade de linhas">
+
+Ex:
+<td colspan="quantidade de colunas">
+
+
+aula 20 Estilos css para Tabelas
+
+
+
+
+
 
 
 
