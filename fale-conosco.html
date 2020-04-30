@@ -44,7 +44,7 @@
 </hgroup> 
 </header>
 
-<form>
+<form method="POST" id="fContato" action="mailto:rodrigo.souzamail@gmail.com">
 <fieldset id="usuario"><legend>Identificação do Usuário</legend>
     <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
     <p><label for="cSenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"></p>
@@ -59,21 +59,29 @@
 <fieldset id="endereco"><legend>Endereço do Usuário</legend>
     <p><label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="13" maxlength="80"placeholder="Rua,Av"></p>
     <p><label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
-    <p><label for="">Estado:</label></p>
-    <p><label for="">Cidade:</label></p>
+    <p><label for="cEst">Estado:</label><select name="tEst" id="cEs">
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+        <option>Minas Gerais</option>
+        <option>Paraná</option>
+        <option>Santa Catarina</option>
+        <option>Rio Grande do Sul</option>
+        <option selected>Distrito Federal</option>
+    </select></p>
+    <p><label for="cCid">Cidade:</label></p>
 
 </fieldset>
 
 <fieldset id="mensagem"> <legend>Mensagem do Usuário</legend>
-    Grau de Urgência:
-    Mensagem:
+    <p><label for="cUrg"> Grau de Urgência:</label></p>
+    <p><label for="cMsg">Mensagem:</label></p>
 </fieldset>
 
 <fieldset id="pedido"><legend>Quero um Google Glass</legend>
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+    <p><label>Gostaria de adquirir um Google Glass quando disponível</label></p>
+    <p><label>Cor:</label></p>
+    <p><label>Quantidade:</label></p>
+    <p><label> Total: R$</label></p>
 </fieldset>
 
 [BOTÃO ENVIAR]
